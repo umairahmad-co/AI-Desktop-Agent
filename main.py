@@ -19,7 +19,12 @@ while True:
     elif "stop" in command:
         speak("Goodbye")
         break
-
+    
+    elif "open youtube" in command:
+        speak("Opening YouTube")
+        import webbrowser
+        webbrowser.open("https://youtube.com")
+        
 
 #     open youtube
 # play music
