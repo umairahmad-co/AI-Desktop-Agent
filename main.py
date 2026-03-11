@@ -41,11 +41,11 @@ while True:
     
     elif "open vscode" in command:
         speak("Opening VS Code")
-    subprocess.Popen("C:\\Users\\YourName\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe")
+        subprocess.Popen("C:\\Users\\YourName\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe")
 
     elif "open word" in command:
-    speak("Opening Microsoft Word")
-    subprocess.Popen("C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE")
+        speak("Opening Microsoft Word")
+        subprocess.Popen("C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE")
 
 elif "open excel" in command:
     speak("Opening Excel")
