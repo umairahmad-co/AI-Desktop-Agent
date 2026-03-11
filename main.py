@@ -47,9 +47,9 @@ while True:
         speak("Opening Microsoft Word")
         subprocess.Popen("C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE")
 
-elif "open excel" in command:
-    speak("Opening Excel")
-    subprocess.Popen("C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE")
+    elif "open excel" in command:
+        speak("Opening Excel")
+        subprocess.Popen("C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE")
 
 elif "open powerpoint" in command:
     speak("Opening PowerPoint")
