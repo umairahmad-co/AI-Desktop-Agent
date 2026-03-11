@@ -55,9 +55,9 @@ while True:
         speak("Opening PowerPoint")
         subprocess.Popen("C:\\Program Files\\Microsoft Office\\root\\Office16\\POWERPNT.EXE")
 
-elif "open file explorer" in command:
-    speak("Opening File Explorer")
-    subprocess.Popen("explorer")
+    elif "open file explorer" in command:
+        speak("Opening File Explorer")
+        subprocess.Popen("explorer")
 
 
 # play-music
