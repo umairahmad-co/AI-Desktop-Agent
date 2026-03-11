@@ -41,6 +41,6 @@ while True:
         
 
 
-# play music
+# play-music
 # create folder
 # open vscode
