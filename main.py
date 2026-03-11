@@ -43,5 +43,4 @@ while True:
 
 # play music
 # create folder
-# search google
 # open vscode
