@@ -38,7 +38,26 @@ while True:
     elif "open calculator" in command:
         speak("Opening Calculator")
         subprocess.Popen("calc.exe")
-        
+    
+    elif "open vscode" in command:
+        speak("Opening VS Code")
+    subprocess.Popen("C:\\Users\\YourName\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe")
+
+    elif "open word" in command:
+    speak("Opening Microsoft Word")
+    subprocess.Popen("C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE")
+
+elif "open excel" in command:
+    speak("Opening Excel")
+    subprocess.Popen("C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE")
+
+elif "open powerpoint" in command:
+    speak("Opening PowerPoint")
+    subprocess.Popen("C:\\Program Files\\Microsoft Office\\root\\Office16\\POWERPNT.EXE")
+
+elif "open file explorer" in command:
+    speak("Opening File Explorer")
+    subprocess.Popen("explorer")
 
 
 # play-music
