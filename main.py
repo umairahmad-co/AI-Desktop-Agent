@@ -30,6 +30,18 @@ while True:
     elif "open google" in command:
         speak("Opening Google")
         webbrowser.open("https://google.com")
+    
+    elif "open linkedin" in command:
+        webbrowser.open("https://linkedin.com")
+
+    elif "open github" in command:
+    webbrowser.open("https://github.com")
+
+    elif "open kaggle" in command:
+    webbrowser.open("https://kaggle.com")
+
+    elif "open chatgpt" in command:
+    webbrowser.open("https://chat.openai.com")
 
     elif "open notepad" in command:
         speak("Opening Notepad")
