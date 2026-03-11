@@ -1,3 +1,5 @@
+import webbrowser
+import subprocess
 from voice import listen
 from speak import speak
 from automation import open_chrome, shutdown_pc
@@ -24,6 +26,18 @@ while True:
         speak("Opening YouTube")
         import webbrowser
         webbrowser.open("https://youtube.com")
+    
+    elif "open google" in command:
+        speak("Opening Google")
+        webbrowser.open("https://google.com")
+
+    elif "open notepad" in command:
+        speak("Opening Notepad")
+        subprocess.Popen("notepad.exe")
+
+    elif "open calculator" in command:
+        speak("Opening Calculator")
+        subprocess.Popen("calc.exe")
         
 
 #     open youtube
