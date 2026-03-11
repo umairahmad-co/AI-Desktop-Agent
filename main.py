@@ -40,7 +40,7 @@ while True:
         subprocess.Popen("calc.exe")
         
 
-#     open youtube
+# open youtube
 # play music
 # create folder
 # search google
