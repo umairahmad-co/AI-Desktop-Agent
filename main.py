@@ -24,7 +24,6 @@ while True:
     
     elif "open youtube" in command:
         speak("Opening YouTube")
-        import webbrowser
         webbrowser.open("https://youtube.com")
     
     elif "open google" in command:
@@ -35,13 +34,13 @@ while True:
         webbrowser.open("https://linkedin.com")
 
     elif "open github" in command:
-    webbrowser.open("https://github.com")
+        webbrowser.open("https://github.com")
 
     elif "open kaggle" in command:
-    webbrowser.open("https://kaggle.com")
+        webbrowser.open("https://kaggle.com")
 
     elif "open chatgpt" in command:
-    webbrowser.open("https://chat.openai.com")
+        webbrowser.open("https://chat.openai.com")
 
     elif "open notepad" in command:
         speak("Opening Notepad")
